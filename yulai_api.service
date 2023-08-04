@@ -2,7 +2,7 @@
 Description=Simple API project
 
 [Service]
-User=$user
+User=ngm
 Group=nogroup
 ExecStart=uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 WorkingDirectory=/opt/simple_project_fastapi
