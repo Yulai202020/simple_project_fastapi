@@ -1,8 +1,5 @@
 import os
 from fastapi import APIRouter
-from fastapi import APIRouter
-
-table_name: str = os.environ.get("TABLE_NAME")
 
 persons = {
     "0": [
